@@ -16,7 +16,7 @@ jobs:
         
             - name: Setting environment variables
               run: |
-                echo "AWS_DEFAULT_REGION=<YOUR REGION HERE>" >> "$GITHUB_ENV"
+                echo "AWS_DEFAULT_REGION=us-east-1" >> "$GITHUB_ENV"
                 echo "AWS_SG_NAME=PyGoatSG" >> "$GITHUB_ENV"
                 echo "REPO_LOCATION=https://github.com/Akshaykatt/pygoat.git" >> "$GITHUB_ENV"
           
